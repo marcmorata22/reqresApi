@@ -1,0 +1,13 @@
+.buttonStile{
+  float: center;
+}
+.buttonStile:hover {
+  transition-duration: 150ms;
+  color:#401b9c;
+  }
+  .center {
+    margin-top: 15px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }

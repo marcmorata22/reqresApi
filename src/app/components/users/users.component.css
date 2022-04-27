@@ -1,0 +1,30 @@
+.myBox {
+  padding: 5px;
+  max-width: 650px;
+}
+
+.listUsers  {
+  list-style: none;
+  display: block;
+  float: left;
+  width: 25%;
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 110px;
+  margin-bottom: 30px;
+}
+
+.imgStyle{
+  max-width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  border-color:  black;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.footer{
+  border-top: solid gray 1px;
+  align-content: left;
+  padding: 15px;
+}

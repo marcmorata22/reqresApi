@@ -1,0 +1,9 @@
+  <div class="container myBox">
+    <ul>
+      <li *ngFor="let array of arrayUsers" class="listUsers">
+        <h5>{{array.first_name + "" + array.last_name}}</h5>
+        <img src="{{array.avatar}}" class="imgStyle">
+        <h6>{{array.email}}</h6>
+      </li>
+    </ul>
+  </div>
