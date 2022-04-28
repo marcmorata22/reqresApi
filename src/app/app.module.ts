@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { UsersComponent } from './components/users/users.component';
 import { NasaComponent } from './components/nasa/nasa.component';
 import { UsersService } from './Service/users.service';
+import { NasaService } from './Service/nasa.service';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,7 @@ import { UsersService } from './Service/users.service';
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [UsersService],
+  providers: [UsersService, NasaService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
